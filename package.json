@@ -1,0 +1,31 @@
+{
+  "name": "maintenance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.ts"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "auth/*"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.5.0",
+    "axios": "^1.6.2",
+    "baileys": "^6.0.9",
+    "justify": "^1.0.0",
+    "moment": "^2.29.4",
+    "nested-property": "^4.0.0",
+    "nodemon": "^3.0.2",
+    "qrcode-terminal": "^0.12.0",
+    "string-extractor": "^0.0.1",
+    "ts-node": "^10.9.2"
+  }
+}
